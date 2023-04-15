@@ -1,15 +1,15 @@
 import React from "react";
-import { Styles } from "./styles";
+import * as SC from "./styles";
+import { AgentsCardProps } from "src/@types/agentCard";
 import Image from "next/image";
 
-export const AgentCard = () => {
+export const AgentCard = ({ name, avatar }: AgentsCardProps) => {
   return (
-    <Styles.Container>
-      <img
-        src="https://www.riotgames.com/darkroom/1370/9b3da9b650454646cf2a52a1635d5fe2:6b4b78e7e770762b2113996b48489449/beta-key-art-valorant.jpg"
-        alt=""
-      />
-      <span>agente</span>
-    </Styles.Container>
+    <SC.Container>
+      <SC.Content>
+        <img src={avatar} alt={name} />
+      </SC.Content>
+      <h1>{name}</h1>
+    </SC.Container>
   );
 };

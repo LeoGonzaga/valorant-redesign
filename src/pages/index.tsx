@@ -1,5 +1,5 @@
-import AgentCard from "@/Components/AgentCard";
+import Client from "@screens/Client";
 
 export default function Home() {
-  return <AgentCard />;
+  return <Client />;
 }
