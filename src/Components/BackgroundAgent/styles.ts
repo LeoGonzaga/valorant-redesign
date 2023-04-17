@@ -8,10 +8,9 @@ export const Container = styled.div`
   background-image: url("heaven.png");
   background-repeat: no-repeat;
   background-size: cover;
-
   img {
-    max-width: 30%;
     z-index: 2;
+    width: 35%;
   }
 `;
 
@@ -20,5 +19,5 @@ export const Overlay = styled.div`
   position: absolute;
   height: 100vh;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.9;
 `;

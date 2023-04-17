@@ -19,7 +19,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
   overflow: hidden;
   #__next {
     width: 100%;
@@ -33,5 +33,10 @@ body{
 }
 input, textarea, button {
   font-family: 'Montserrat', sans-serif;
+}
+
+h1,span{
+  margin: 0px;
+  padding:0px
 }
 `;

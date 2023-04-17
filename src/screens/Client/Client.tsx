@@ -9,6 +9,11 @@ import jett from "../../../assets/jett.png";
 import neon from "../../../assets/neon.png";
 import harbor from "../../../assets/harbor.png";
 import yuru from "../../../assets/yoru.png";
+import raze from "../../../assets/raze.png";
+import kill from "../../../assets/kill.png";
+
+import Map from "src/Components/Map";
+import Details from "src/Components/Details";
 
 const AGENTS = [
   {
@@ -32,6 +37,18 @@ const AGENTS = [
     avatar: harbor,
   },
   {
+    name: "Raze",
+    avatar: raze,
+  },
+  {
+    name: "KillJoy",
+    avatar: kill,
+  },
+  {
+    name: "Jett",
+    avatar: jett,
+  },
+  {
     name: "Astra",
     avatar: astra,
   },
@@ -39,21 +56,19 @@ const AGENTS = [
     name: "Yoru",
     avatar: yuru,
   },
-  {
-    name: "Jett",
-    avatar: jett,
-  },
 ];
 
 export const Client = (): JSX.Element => {
   return (
     <SC.Container>
-      <BackgroundAgent />
+      <Map />
+      <Details />
       <SC.Footer>
         {AGENTS.map((agent) => (
           <AgentCard key={agent.name} {...agent} />
         ))}
       </SC.Footer>
+      <BackgroundAgent />
     </SC.Container>
   );
 };

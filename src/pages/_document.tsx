@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import Document, {
   DocumentContext,
@@ -6,10 +6,10 @@ import Document, {
   Html,
   Main,
   NextScript,
-} from 'next/document';
-import { ServerStyleSheet } from 'styled-components';
+} from "next/document";
+import { ServerStyleSheet } from "styled-components";
 
-const language = 'pt-br';
+const language = "pt-br";
 
 type Props = {
   styleTags: string;
@@ -74,6 +74,11 @@ export default class ApplicationDocument extends Document<Props> {
             href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700&display=swap"
             rel="stylesheet"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap"
+            rel="stylesheet"
+          />
+
           {this.props.styleTags}
         </Head>
         <body>

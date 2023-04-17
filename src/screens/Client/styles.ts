@@ -10,12 +10,11 @@ export const Container = styled.div`
 
 export const Footer = styled.div`
   display: flex;
-  width: 98%;
+  width: 100%;
   height: 210px;
   align-self: flex-end;
   position: absolute;
   justify-content: center;
   flex-wrap: wrap;
-  overflow-y: auto;
   z-index: 3;
 `;

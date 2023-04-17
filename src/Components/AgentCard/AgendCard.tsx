@@ -6,11 +6,12 @@ import { AgentsCardProps } from "src/@types/agentCard";
 export const AgentCard = ({ name, avatar }: AgentsCardProps) => {
   return (
     <SC.Container>
-      <SC.Blur />
+      <SC.Overlay></SC.Overlay>
       <SC.Content>
         <h1>{name}</h1>
 
         <img src={`http://localhost:3000${avatar.src}`} alt={name} />
+        <SC.Blur />
       </SC.Content>
     </SC.Container>
   );
