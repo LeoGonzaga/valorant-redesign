@@ -1,49 +1,47 @@
 import React from "react";
-import AgentCard from "@components/AgentCard";
 
 import * as SC from "./styles";
-import BackgroundAgent from "@components/BackgroundAgent";
+import AgentCard from "src/Components/AgentCard";
+import BackgroundAgent from "src/Components/BackgroundAgent";
+
+import astra from "../../../assets/astra.png";
+import jett from "../../../assets/jett.png";
+import neon from "../../../assets/neon.png";
+import harbor from "../../../assets/harbor.png";
+import yuru from "../../../assets/yoru.png";
 
 const AGENTS = [
   {
     name: "Astra",
-    avatar:
-      "https://cdn.mobalytics.gg/assets/valorant/images/agents/full-size-small/astra.png",
+    avatar: astra,
   },
   {
-    name: "Breach",
-    avatar:
-      "https://cdn.mobalytics.gg/assets/valorant/images/agents/full-size-small/breach.png",
+    name: "Yoru",
+    avatar: yuru,
   },
   {
-    name: "Brimstone",
-    avatar:
-      "https://cdn.mobalytics.gg/assets/valorant/images/agents/full-size-small/brimstone.png",
+    name: "Jett",
+    avatar: jett,
   },
   {
-    name: "Chamber",
-    avatar:
-      "https://cdn.mobalytics.gg/assets/valorant/images/agents/full-size-small/chamber.png",
+    name: "Neon",
+    avatar: neon,
   },
   {
-    name: "Cypher",
-    avatar:
-      "https://cdn.mobalytics.gg/assets/valorant/images/agents/full-size-small/cypher.png",
+    name: "Harbor",
+    avatar: harbor,
   },
   {
-    name: "Fade",
-    avatar:
-      "https://cdn.mobalytics.gg/assets/valorant/images/agents/full-size-small/fade.png",
+    name: "Astra",
+    avatar: astra,
   },
   {
-    name: "Gekko",
-    avatar:
-      "https://cdn.mobalytics.gg/assets/valorant/images/agents/full-size-small/gekko.png",
+    name: "Yoru",
+    avatar: yuru,
   },
   {
-    name: "Raze",
-    avatar:
-      "https://cdn.mobalytics.gg/assets/valorant/images/agents/full-size-small/raze.png",
+    name: "Jett",
+    avatar: jett,
   },
 ];
 

@@ -1,4 +1,4 @@
 export type AgentsCardProps = {
   name: string;
-  avatar: string;
+  avatar: any;
 };

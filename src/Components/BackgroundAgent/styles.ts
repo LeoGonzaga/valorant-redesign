@@ -5,9 +5,20 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("heaven.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
   img {
-    width: 60vw;
-    max-width: 1000px;
+    max-width: 30%;
+    z-index: 2;
   }
+`;
+
+export const Overlay = styled.div`
+  background-color: black;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.7;
 `;
