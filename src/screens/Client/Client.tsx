@@ -14,7 +14,6 @@ import Details from "@components/Details";
 import AgentCard from "@components/AgentCard";
 import BackgroundAgent from "@components/BackgroundAgent";
 import SelectedAgents from "@components/SelectedAgents";
-import Powers from "@components/Powers";
 
 const AGENTS = [
   {
