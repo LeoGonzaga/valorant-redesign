@@ -18,3 +18,11 @@ export const Footer = styled.div`
   flex-wrap: wrap;
   z-index: 3;
 `;
+
+export const LeftItems = styled.div`
+  position: absolute;
+  left: 0px;
+  height: 70%;
+  z-index: 10;
+  padding-left: 20px;
+`;

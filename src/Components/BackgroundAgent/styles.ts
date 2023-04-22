@@ -10,7 +10,7 @@ export const Container = styled.div`
   background-size: cover;
   img {
     z-index: 2;
-    width: 35%;
+    width: 30%;
   }
 `;
 

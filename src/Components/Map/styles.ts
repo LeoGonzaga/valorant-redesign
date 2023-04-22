@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  position: absolute;
-  left: 0px;
   z-index: 999;
   background-size: contain;
 

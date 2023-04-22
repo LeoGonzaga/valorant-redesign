@@ -20,6 +20,7 @@ export const Content = styled.div`
   text-align: center;
   object-fit: contain;
   position: absolute;
+  cursor: pointer;
   img {
     position: relative;
     top: -30px;
