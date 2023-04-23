@@ -11,7 +11,6 @@ export const Details = (): JSX.Element => {
       <Type />
       <Name />
       <Describe />
-      <Powers />
     </SC.Container>
   );
 };
