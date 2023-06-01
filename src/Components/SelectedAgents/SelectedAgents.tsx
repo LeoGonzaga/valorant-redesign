@@ -5,6 +5,7 @@ import jett from "../../../assets/jett.png";
 import kill from "../../../assets/kill.png";
 import neon from "../../../assets/neon.png";
 import raze from "../../../assets/raze.png";
+import Image from "next/image";
 
 const AGENTS = [
   {
@@ -50,7 +51,7 @@ export const SelectedAgents = (): JSX.Element => {
       {AGENTS.map((elem) => (
         <SC.Content key={elem.username}>
           <SC.Border>
-            <img src={`http://localhost:3000` + elem.agent.avatar} alt="" />
+            <Image src={`http://localhost:3000` + elem.agent.avatar} alt="" />
           </SC.Border>
           <span>
             <SC.Agent>{elem.username}</SC.Agent>
