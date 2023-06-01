@@ -9,11 +9,11 @@ import harbor from "../../../assets/harbor.png";
 import yuru from "../../../assets/yoru.png";
 import raze from "../../../assets/raze.png";
 import kill from "../../../assets/kill.png";
-import Map from "src/components/Map";
-import Details from "src/components/Details";
-import AgentCard from "src/components/AgentCard";
-import BackgroundAgent from "src/components/BackgroundAgent";
-import SelectedAgents from "src/components/SelectedAgents";
+import Map from "../../components/Map";
+import Details from "../../components/Details";
+import AgentCard from "../../components/AgentCard";
+import BackgroundAgent from "../../components/BackgroundAgent";
+import SelectedAgents from "../../components/SelectedAgents";
 
 const AGENTS = [
   {
